@@ -298,7 +298,7 @@ dashboardPage(skin = "red",
                        column(4,
                          shinyDirButton("save_dir_sc",
                                          "Browse",
-                                         "Browse", roots = c(Documents = "/home/rstudio"))
+                                         "Browse")
                               ),
                        column(8,
                           textOutput("save_dir_sc_out"),
